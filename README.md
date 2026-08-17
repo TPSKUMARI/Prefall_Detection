@@ -36,13 +36,13 @@ pip install torch scikit-learn
 Run the basic real-time detector:
 
 ```bash
-python prefall_detection_asela.py
+python prefall_detection_1.py
 ```
 
 Run the GUI-based detector with extended analysis:
 
 ```bash
-python test_realtime_ano_gaththa.py
+python test_realtime_ano_2.py
 ```
 
 Follow the on-screen calibration instructions to let the system learn a normal gait baseline before anomaly detection begins.
