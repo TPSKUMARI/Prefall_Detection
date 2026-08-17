@@ -4,8 +4,8 @@ A computer-vision system for detecting abnormal gait patterns and fall risk in r
 
 ## Files
 
-- **prefall_detection_asela.py** — Real-time gait anomaly detector. Uses MediaPipe Pose to track joint angles and step height, with a calibration phase to learn a person's normal gait, then flags statistically abnormal movement using persistence-based anomaly detection. Includes optional voice/audio alerts.
-- **test_realtime_ano_gaththa.py** — Extended gait anomaly detection system with a Tkinter GUI, additional signal processing (Savitzky-Golay filtering, z-score analysis), and optional machine learning based anomaly detection (Isolation Forest, One-Class SVM, and a PyTorch model).
+- **prefall_detection_1.py** — Real-time gait anomaly detector. Uses MediaPipe Pose to track joint angles and step height, with a calibration phase to learn a person's normal gait, then flags statistically abnormal movement using persistence-based anomaly detection. Includes optional voice/audio alerts.
+- **test_realtime_ano_2.py** — Extended gait anomaly detection system with a Tkinter GUI, additional signal processing (Savitzky-Golay filtering, z-score analysis), and optional machine learning based anomaly detection (Isolation Forest, One-Class SVM, and a PyTorch model).
 
 ## Requirements
 
